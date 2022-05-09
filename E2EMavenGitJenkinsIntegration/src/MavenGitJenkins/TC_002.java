@@ -12,7 +12,7 @@ public class TC_002 {
 	
 		System.setProperty("webdriver.chrome.driver", "C://browserdrivers//chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
-		driver.get("google.com");
+		driver.get("https://google.com/");
 		/*driver.navigate().to("https://opensource-demo.orangehrmlive.com/");
 		
 		driver.findElement(By.cssSelector("input#txtUsername")).sendKeys("Admin");
