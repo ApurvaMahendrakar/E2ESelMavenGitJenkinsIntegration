@@ -12,12 +12,15 @@ public class TC_002 {
 	
 		System.setProperty("webdriver.chrome.driver", "C://browserdrivers//chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
-		driver.navigate().to("https://opensource-demo.orangehrmlive.com/");
+		driver.get("google.com");
+		/*driver.navigate().to("https://opensource-demo.orangehrmlive.com/");
 		
 		driver.findElement(By.cssSelector("input#txtUsername")).sendKeys("Admin");
 		driver.findElement(By.cssSelector("input#txtPassword")).sendKeys("admin123");
 		driver.findElement(By.cssSelector("input.button")).click();
 		driver.quit();
+		
+		*/
 
 }
 }
